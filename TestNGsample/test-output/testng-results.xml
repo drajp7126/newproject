@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="8" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-19T07:37:10 IST" name="Suite" finished-at="2022-04-19T07:37:10 IST" duration-ms="94">
+    <groups>
+      <group name="regrassion">
+        <method signature="NewTest1.f()[pri:1, instance:test1.NewTest1@1eb5174b]" name="f" class="test1.NewTest1"/>
+        <method signature="NewTest3.fNewTest2()[pri:1, instance:test1.NewTest3@67080771]" name="fNewTest2" class="test1.NewTest3"/>
+      </group> <!-- regrassion -->
+      <group name="smoke">
+        <method signature="NewTest1.f()[pri:1, instance:test1.NewTest1@1eb5174b]" name="f" class="test1.NewTest1"/>
+        <method signature="NewTest1.f1()[pri:2, instance:test1.NewTest1@1eb5174b]" name="f1" class="test1.NewTest1"/>
+        <method signature="NewTest3.fNewTest2()[pri:1, instance:test1.NewTest3@67080771]" name="fNewTest2" class="test1.NewTest3"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-04-19T07:37:10 IST" name="Test" finished-at="2022-04-19T07:37:10 IST" duration-ms="94">
+      <class name="test1.NewTest1">
+        <test-method signature="f()[pri:1, instance:test1.NewTest1@1eb5174b]" started-at="2022-04-19T07:37:10 IST" name="f" description="test 1 class NewTest1" finished-at="2022-04-19T07:37:10 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="f1()[pri:2, instance:test1.NewTest1@1eb5174b]" started-at="2022-04-19T07:37:10 IST" name="f1" description="test 2 class NewTest1" finished-at="2022-04-19T07:37:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+      </class> <!-- test1.NewTest1 -->
+      <class name="test1.NewTest3">
+        <test-method signature="fNewTest2()[pri:1, instance:test1.NewTest3@67080771]" started-at="2022-04-19T07:37:10 IST" name="fNewTest2" description="class NewTest2" finished-at="2022-04-19T07:37:10 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fNewTest2 -->
+        <test-method signature="fNewTest2()[pri:1, instance:test1.NewTest3@67080771]" started-at="2022-04-19T07:37:10 IST" name="fNewTest2" description="class NewTest2" finished-at="2022-04-19T07:37:10 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fNewTest2 -->
+        <test-method signature="fNewTest2()[pri:1, instance:test1.NewTest3@67080771]" started-at="2022-04-19T07:37:10 IST" name="fNewTest2" description="class NewTest2" finished-at="2022-04-19T07:37:10 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fNewTest2 -->
+        <test-method signature="fNewTest2()[pri:1, instance:test1.NewTest3@67080771]" started-at="2022-04-19T07:37:10 IST" name="fNewTest2" description="class NewTest2" finished-at="2022-04-19T07:37:10 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fNewTest2 -->
+        <test-method signature="fNewTest2()[pri:1, instance:test1.NewTest3@67080771]" started-at="2022-04-19T07:37:10 IST" name="fNewTest2" description="class NewTest2" finished-at="2022-04-19T07:37:10 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fNewTest2 -->
+      </class> <!-- test1.NewTest3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
