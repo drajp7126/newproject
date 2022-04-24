@@ -53,5 +53,7 @@ public class NewTest {
   public void afterSuite() {
 	  System.out.println("im in @AfterSuite ");
   }
+  
+  
 
 }
